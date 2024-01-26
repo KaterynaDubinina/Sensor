@@ -18,14 +18,14 @@ public class LowTempSensor extends Sensor {
 
         System.out.printf("""
                   
-                  Дослідник:    %s
+                  Дослідник:     %s
                   
-                  Речовина:     %s
+                  Речовина:      %s
                   Температура:  %d°C\s
-                  Вага:         %.2f г\s
-                  Індикатор:    \u26AA
+                  Вага:          1 г\s
+                  Індикатор:     \u26AA
                 
-                """, scientist.getScientistName(), substance.getSubstName(), substance.getTemp(), substance.getWeight());
+                """, scientist.getScientistName(), substance.getSubstName(), substance.getTemp());
 
     }
 }
